@@ -1,0 +1,1044 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adriana Cardoso — Currículo · Resume</title>
+<meta name="description" content="Adriana Cardoso — Produto, Estratégia e IA | Transformação Digital. São Paulo, SP.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Adriana Cardoso",
+  "jobTitle": "Especialista em Projetos Estratégicos",
+  "description": "Produto, Estratégia e IA | Transformação Digital",
+  "email": "mailto:adriana.acardoso@gmail.com",
+  "url": "https://www.linkedin.com/in/adrianacardosovenceslau",
+  "sameAs": ["https://www.linkedin.com/in/adrianacardosovenceslau"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  },
+  "worksFor": { "@type": "Organization", "name": "CVC Corp" },
+  "alumniOf": [
+    { "@type": "EducationalOrganization", "name": "MIT Professional Education" },
+    { "@type": "EducationalOrganization", "name": "Impacta Tecnologia" },
+    { "@type": "EducationalOrganization", "name": "Nortus" },
+    { "@type": "EducationalOrganization", "name": "Fundação Getulio Vargas" },
+    { "@type": "CollegeOrUniversity", "name": "Fatec Baixada Santista Rubens Lara" }
+  ],
+  "hasCredential": [
+    "Product Discovery", "Product Management", "Product Owner",
+    "Enterprise Design Thinking Practitioner", "Kanban System", "CPA-10"
+  ],
+  "knowsAbout": [
+    "Visão estratégica", "Gestão de portfólio e roadmap", "Ciclo ágil de produto",
+    "Gestão de stakeholders", "UX", "Liderança influenciadora", "IA aplicada a produto",
+    "Transformação digital", "Product Management"
+  ]
+}
+</script>
+
+<style>
+/* =========================================================
+   Variáveis — cor, fonte e espaçamento
+   ========================================================= */
+:root {
+  /* Cores */
+  --c-ink: #1b1630;
+  --c-muted: #575170;
+  --c-accent: #5b21b6;
+  --c-accent-strong: #3b0f9e;
+  --c-accent-soft: #ddd5f7;
+  --c-hero-from: #1d0a6b;
+  --c-hero-to: #3d14c4;
+  --c-on-hero: #ffffff;
+  --c-on-hero-muted: #ddd8ff;
+  --c-btn-from: #7c3aed;
+  --c-btn-to: #4f46e5;
+  --c-soft: #f4f2fb;
+  --c-line: #e4def5;
+  --c-paper: #ffffff;
+  --c-gold: #f6c343;
+  --c-mark-bg: #fff0b3;
+  --c-mark-ink: #5a4300;
+
+  /* Fonte */
+  --font: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Espaçamento */
+  --s-1: .25rem;
+  --s-2: .5rem;
+  --s-3: .75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4.5rem;
+  --s-9: 6rem;
+
+  --radius: 18px;
+  --radius-pill: 999px;
+  --maxw: 1120px;
+  --shadow: 0 18px 40px -18px rgba(39, 14, 120, .35);
+}
+
+/* =========================================================
+   Base
+   ========================================================= */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--c-ink);
+  background: var(--c-paper);
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, p, ul, ol, dl, dd { margin: 0; }
+ul, ol { padding: 0; }
+a { color: inherit; }
+a:focus-visible, label:focus-visible { outline: 3px solid var(--c-gold); outline-offset: 3px; }
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--s-5); }
+.icon { width: 1.1em; height: 1.1em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+mark.metric-todo {
+  background: var(--c-mark-bg);
+  color: var(--c-mark-ink);
+  font-weight: 600;
+  font-size: .85em;
+  padding: 0 .3em;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+/* =========================================================
+   Idioma (sem JavaScript: rádio + seletor de irmão)
+   ========================================================= */
+#lang-pt:checked ~ .site [lang="en"],
+#lang-en:checked ~ .site [lang="pt-BR"] { display: none !important; }
+
+.lang-switch {
+  display: flex;
+  gap: .25rem;
+  padding: .25rem;
+  border: 1.5px solid rgba(255, 255, 255, .55);
+  border-radius: var(--radius-pill);
+}
+.lang-switch label {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .35rem .8rem;
+  border-radius: var(--radius-pill);
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--c-on-hero);
+  cursor: pointer;
+  transition: background .2s, color .2s;
+}
+.lang-switch label:hover { background: rgba(255, 255, 255, .14); }
+#lang-pt:checked ~ .site label[for="lang-pt"],
+#lang-en:checked ~ .site label[for="lang-en"] { background: var(--c-paper); color: var(--c-accent-strong); }
+#lang-pt:focus-visible ~ .site label[for="lang-pt"],
+#lang-en:focus-visible ~ .site label[for="lang-en"] { outline: 3px solid var(--c-gold); outline-offset: 2px; }
+.flag { width: 22px; height: 15px; border-radius: 3px; box-shadow: 0 0 0 1px rgba(0, 0, 0, .18); flex: none; }
+
+/* =========================================================
+   Hero
+   ========================================================= */
+.hero {
+  position: relative;
+  overflow: hidden;
+  color: var(--c-on-hero);
+  background:
+    radial-gradient(900px 500px at 85% 15%, rgba(124, 92, 255, .45), transparent 60%),
+    linear-gradient(135deg, var(--c-hero-from), var(--c-hero-to));
+  padding-bottom: calc(var(--s-9) + 4rem);
+}
+.nav {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-5);
+  padding: var(--s-5) 0;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -.01em;
+  text-decoration: none;
+}
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--c-paper);
+  color: var(--c-accent-strong);
+  font-size: .95rem;
+}
+.nav-links { display: flex; gap: var(--s-5); list-style: none; font-size: .9rem; font-weight: 500; }
+.nav-links a { text-decoration: none; }
+.nav-links a:hover { text-decoration: underline; text-underline-offset: 6px; }
+
+.hero-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1.15fr .85fr;
+  align-items: center;
+  gap: var(--s-6);
+  padding-top: var(--s-7);
+}
+.eyebrow-outline {
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--c-on-hero);
+}
+@supports (-webkit-text-stroke: 1px #fff) {
+  .eyebrow-outline { color: transparent; -webkit-text-stroke: 1.2px var(--c-on-hero); }
+}
+.hero h1 {
+  font-size: clamp(2.4rem, 5.2vw, 3.7rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -.02em;
+  margin-top: var(--s-2);
+}
+.hero-title { margin-top: var(--s-3); font-size: 1.1rem; color: var(--c-on-hero-muted); max-width: 32ch; }
+.hero-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2) var(--s-5);
+  margin-top: var(--s-5);
+  font-style: normal;
+  font-size: .9rem;
+  color: var(--c-on-hero-muted);
+}
+.hero-contact a, .hero-contact span { display: inline-flex; align-items: center; gap: .45rem; text-decoration: none; }
+.hero-contact a:hover { color: var(--c-on-hero); text-decoration: underline; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-4); margin-top: var(--s-6); }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .85rem 1.6rem;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  font-size: .9rem;
+  text-decoration: none;
+  transition: transform .2s, box-shadow .2s;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn-primary {
+  background: linear-gradient(90deg, var(--c-btn-from), var(--c-btn-to));
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+.btn-ghost { border: 1.5px solid rgba(255, 255, 255, .7); color: var(--c-on-hero); }
+
+/* Foto + decoração */
+.hero-visual { position: relative; justify-self: center; width: min(100%, 380px); aspect-ratio: 1; }
+.photo {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background: linear-gradient(160deg, #ece9f8, #c3b9ea);
+  border: 10px solid rgba(255, 255, 255, .14);
+}
+.photo-initials { font-size: clamp(4rem, 9vw, 6rem); font-weight: 700; letter-spacing: -.04em; color: var(--c-accent-strong); }
+.photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+.deco { position: absolute; pointer-events: none; }
+.deco-ring-gold { top: 0; left: 2%; width: 74px; height: 74px; border: 12px solid var(--c-gold); border-radius: 50%; z-index: 3; }
+.deco-ring { top: -10%; right: 30%; width: 30px; height: 30px; border: 3px solid #fff; border-radius: 50%; }
+.deco-ring-sm { top: 40%; right: -6%; width: 18px; height: 18px; border: 2.5px solid #fff; border-radius: 50%; }
+.deco-tri { top: -4%; right: 10%; width: 26px; height: 26px; }
+.deco-dot { width: 7px; height: 7px; border-radius: 50%; background: #fff; }
+.deco-dot.d1 { top: 14%; right: -2%; }
+.deco-dot.d2 { top: 28%; right: 2%; }
+.hero-arcs { position: absolute; left: 16%; bottom: 70px; width: 420px; max-width: 60%; z-index: 1; pointer-events: none; }
+.hero-wave { position: absolute; left: 0; right: 0; bottom: -1px; width: 100%; height: 170px; z-index: 1; }
+
+/* =========================================================
+   Seções
+   ========================================================= */
+.section { padding: var(--s-8) 0; }
+.section-soft { background: var(--c-soft); }
+.section-head { text-align: center; margin-bottom: var(--s-7); }
+.kicker-dot {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 0 auto var(--s-3);
+  border: 5px solid var(--c-accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px var(--c-accent-soft);
+}
+.kicker { display: block; font-size: .75rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--c-muted); }
+.section-title { font-size: clamp(1.9rem, 3.4vw, 2.6rem); font-weight: 700; line-height: 1.15; letter-spacing: -.02em; }
+.section-head .section-title { margin-top: var(--s-1); }
+.section-lead { margin-top: var(--s-2); color: var(--c-muted); }
+
+/* Sobre */
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-7); align-items: start; }
+.summary { color: var(--c-muted); font-size: 1.02rem; line-height: 1.8; }
+.about-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3); margin-top: var(--s-6); }
+.round-link {
+  display: grid;
+  place-items: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  background: var(--c-accent);
+  color: #fff;
+  text-decoration: none;
+}
+.round-link .icon { width: 1.15rem; height: 1.15rem; }
+.facts { display: grid; gap: .15rem; }
+.facts div {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: var(--s-4);
+  padding: .8rem 1.25rem;
+  border-radius: 12px;
+  font-size: .9rem;
+}
+.facts div:nth-child(odd) { background: var(--c-soft); }
+.facts dt { font-weight: 600; }
+.facts dd { overflow-wrap: anywhere; }
+.facts a { text-decoration: none; }
+.facts a:hover { text-decoration: underline; }
+
+.metrics {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s-4);
+  padding: var(--s-4);
+  border: 2px solid var(--c-accent);
+  border-radius: var(--radius);
+}
+.metric {
+  padding: var(--s-5) var(--s-4);
+  text-align: center;
+  border: 3px solid var(--c-accent-soft);
+  border-top-color: var(--c-accent);
+  border-right-color: var(--c-accent);
+  border-radius: 14px;
+}
+.metric strong { display: block; font-size: 2rem; font-weight: 700; line-height: 1.1; }
+.metric span { display: block; margin-top: .4rem; font-size: .8rem; line-height: 1.4; color: var(--c-muted); }
+
+/* Trajetória */
+.path { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-5); }
+.path li {
+  padding: var(--s-6) var(--s-5);
+  text-align: center;
+  background: var(--c-soft);
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+}
+.path li.is-current { background: var(--c-paper); border-color: var(--c-accent); }
+.icon-box {
+  display: grid;
+  place-items: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 0 auto var(--s-4);
+  border-radius: 20px;
+  background: var(--c-paper);
+  color: var(--c-accent);
+  box-shadow: 0 12px 24px -14px rgba(39, 14, 120, .45);
+}
+.icon-box .icon { width: 2rem; height: 2rem; stroke-width: 1.5; }
+.path li.is-current .icon-box { background: var(--c-accent); color: #fff; }
+.path-step { display: block; font-size: .75rem; font-weight: 600; letter-spacing: .14em; color: var(--c-accent); }
+.path h3 { margin-top: var(--s-1); font-size: 1.1rem; font-weight: 600; }
+.path p { margin-top: var(--s-2); font-size: .88rem; color: var(--c-muted); line-height: 1.55; }
+
+/* Experiência */
+.timeline { list-style: none; display: grid; gap: var(--s-5); }
+.job {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  gap: var(--s-6);
+  padding: var(--s-6);
+  background: var(--c-paper);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--c-accent);
+}
+.job-company { font-size: 1.25rem; font-weight: 700; line-height: 1.25; }
+.job-role { margin-top: var(--s-1); font-weight: 600; color: var(--c-accent); line-height: 1.4; }
+.job-date { margin-top: var(--s-2); font-size: .85rem; color: var(--c-muted); }
+.job-points { display: grid; gap: var(--s-2); padding-left: 1.1rem; }
+.job-points li::marker { color: var(--c-accent); }
+.job-sub + .job-sub { margin-top: var(--s-5); }
+.job-sub h4 { margin-bottom: var(--s-2); font-size: 1rem; font-weight: 600; color: var(--c-accent); }
+
+/* Formação */
+.edu-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: var(--s-7); }
+.block-title { font-size: 1.15rem; font-weight: 700; margin-bottom: var(--s-4); }
+.edu { list-style: none; display: grid; gap: var(--s-3); }
+.edu li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--s-1) var(--s-4);
+  padding: var(--s-4) var(--s-5);
+  border-radius: 14px;
+  background: var(--c-soft);
+}
+.edu-school { font-weight: 600; }
+.edu-course { grid-column: 1; font-size: .9rem; color: var(--c-muted); }
+.edu time, .edu .edu-year { grid-row: 1; grid-column: 2; font-size: .85rem; font-weight: 600; color: var(--c-accent); }
+.chips { list-style: none; display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.chips li {
+  padding: .45rem .95rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-pill);
+  background: var(--c-soft);
+  font-size: .85rem;
+  font-weight: 500;
+}
+.chips + .block-title { margin-top: var(--s-6); }
+
+/* Contato */
+.contact-band {
+  color: var(--c-on-hero);
+  background: linear-gradient(135deg, var(--c-hero-from), var(--c-hero-to));
+  text-align: center;
+}
+.contact-band .kicker { color: var(--c-on-hero-muted); }
+.contact-band .kicker-dot { border-color: var(--c-gold); box-shadow: 0 0 0 5px rgba(246, 195, 67, .3); }
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s-4);
+  margin-top: var(--s-6);
+  font-style: normal;
+}
+.contact-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .85rem 1.4rem;
+  border: 1.5px solid rgba(255, 255, 255, .55);
+  border-radius: var(--radius-pill);
+  font-weight: 500;
+  text-decoration: none;
+}
+.contact-list a:hover { background: rgba(255, 255, 255, .12); }
+.site-footer { padding: var(--s-5) 0; font-size: .8rem; color: var(--c-muted); text-align: center; }
+
+/* =========================================================
+   Responsivo
+   ========================================================= */
+@media (max-width: 960px) {
+  .nav-links { display: none; }
+  .hero-grid { grid-template-columns: 1fr; padding-top: var(--s-5); }
+  .hero-visual { width: min(80%, 320px); margin-top: var(--s-5); }
+  .about-grid, .edu-grid { grid-template-columns: 1fr; gap: var(--s-6); }
+  .path { grid-template-columns: repeat(2, 1fr); }
+  .job { grid-template-columns: 1fr; gap: var(--s-4); }
+}
+@media (max-width: 560px) {
+  .wrap { padding: 0 var(--s-4); }
+  .brand-name { display: none; }
+  .lang-switch label { padding: .35rem .6rem; }
+  .section { padding: var(--s-7) 0; }
+  .path { grid-template-columns: 1fr; }
+  .metric strong { font-size: 1.6rem; }
+  .facts div { grid-template-columns: 1fr; gap: 0; }
+  .job { padding: var(--s-5); }
+  .hero-arcs { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn { transition: none; }
+}
+
+/* =========================================================
+   Impressão (A4, 2 páginas)
+   ========================================================= */
+@page { size: A4; margin: 14mm; }
+@media print {
+  html { font-size: 8.6pt; }
+  body { line-height: 1.42; color: #000; background: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  a { color: #000 !important; text-decoration: none !important; }
+
+  .nav, .eyebrow-outline, .hero-visual, .deco, .hero-arcs, .hero-wave, .hero-actions,
+  .about-actions, .facts, .kicker-dot, .kicker, .section-lead, .icon-box,
+  .contact-band, .site-footer, .hero-contact .icon { display: none !important; }
+
+  .wrap { max-width: none; padding: 0; }
+  .hero { background: none; color: var(--c-ink); padding: 0 0 3mm; border-bottom: 2px solid var(--c-accent); }
+  .hero-grid { display: block; padding: 0; }
+  .hero h1 { margin: 0; font-size: 22pt; color: var(--c-accent-strong); }
+  .hero-title { margin-top: 1mm; max-width: none; font-size: 11pt; font-weight: 500; color: var(--c-ink); }
+  .hero-contact { gap: 0 5mm; margin-top: 2mm; font-size: 9pt; color: var(--c-ink); }
+
+  .section { padding: 4mm 0 0; }
+  .section-soft { background: none; }
+  .section-head { margin-bottom: 2mm; text-align: left; }
+  .section-title, .about-grid .section-title {
+    font-size: 10.5pt;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--c-accent-strong);
+    border-bottom: 1px solid var(--c-line);
+    padding-bottom: 1mm;
+  }
+
+  .about-grid { display: block; }
+  .summary { margin-top: 2mm; font-size: 9.5pt; line-height: 1.5; color: var(--c-ink); }
+  .metrics { grid-template-columns: repeat(4, 1fr); gap: 3mm; margin-top: 3mm; padding: 0; border: none; }
+  .metric { padding: 2mm; border-width: 1.5px; }
+  .metric strong { font-size: 13pt; color: var(--c-accent-strong); }
+  .metric span { margin-top: .5mm; font-size: 7.5pt; color: var(--c-ink); }
+
+  .path { grid-template-columns: repeat(4, 1fr); gap: 3mm; }
+  .path li { padding: 2mm 2.5mm; text-align: left; background: none; border: 1px solid var(--c-line); border-radius: 8px; }
+  .path li.is-current { border: 1.5px solid var(--c-accent); }
+  .path h3 { margin-top: 0; font-size: 9pt; }
+  .path p { margin-top: .5mm; font-size: 7.8pt; line-height: 1.35; color: var(--c-ink); }
+
+  .timeline { gap: 3mm; }
+  .timeline > li, .job, .job-sub { break-inside: avoid; page-break-inside: avoid; }
+  .job { display: block; padding: 0; border: none; border-radius: 0; }
+  .job-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 2.5mm; margin-bottom: 1mm; }
+  .job-company { font-size: 10.5pt; }
+  .job-role { margin: 0; font-size: 9.5pt; }
+  .job-role::before { content: "· "; color: var(--c-muted); }
+  .job-date { margin: 0 0 0 auto; font-size: 8.5pt; color: var(--c-ink); }
+  .job-points { gap: .6mm; padding-left: 4.5mm; }
+  .job-sub + .job-sub { margin-top: 1.5mm; }
+  .job-sub h4 { margin-bottom: .6mm; font-size: 9pt; }
+
+  .edu-grid { grid-template-columns: 1.15fr 1fr; gap: 6mm; }
+  .block-title { margin-bottom: 1.5mm; font-size: 9.5pt; color: var(--c-accent-strong); }
+  .edu { gap: 1mm; }
+  .edu li { padding: 0; background: none; border-radius: 0; }
+  .edu-course { font-size: 8.5pt; color: var(--c-ink); }
+  .chips { gap: 1mm 1.5mm; }
+  .chips li { padding: .4mm 2mm; font-size: 8pt; background: none; }
+  .chips + .block-title { margin-top: 3mm; }
+
+  h2, h3, h4, .section-head { break-after: avoid; page-break-after: avoid; }
+  mark.metric-todo { border: 1px solid var(--c-mark-ink); }
+}
+</style>
+</head>
+
+<body>
+<!-- Ícones e bandeiras (SVG embutido, sem dependências externas) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="flag-br" viewBox="0 0 20 14" preserveAspectRatio="xMidYMid slice">
+    <rect width="20" height="14" fill="#009c3b"/>
+    <path d="M10 1.6 18.2 7 10 12.4 1.8 7z" fill="#ffdf00"/>
+    <circle cx="10" cy="7" r="3.3" fill="#002776"/>
+    <path d="M6.85 6.3c2.1-.45 4.4-.1 6.3 1.05" fill="none" stroke="#fff" stroke-width=".55"/>
+  </symbol>
+  <symbol id="flag-us" viewBox="0 0 7410 3900" preserveAspectRatio="xMidYMid slice">
+    <rect width="7410" height="3900" fill="#b22234"/>
+    <path d="M0 450h7410M0 1050h7410M0 1650h7410M0 2250h7410M0 2850h7410M0 3450h7410" stroke="#fff" stroke-width="300"/>
+    <rect width="2964" height="2100" fill="#3c3b6e"/>
+    <g fill="#fff">
+      <circle cx="494" cy="420" r="120"/><circle cx="1482" cy="420" r="120"/><circle cx="2470" cy="420" r="120"/>
+      <circle cx="988" cy="1050" r="120"/><circle cx="1976" cy="1050" r="120"/>
+      <circle cx="494" cy="1680" r="120"/><circle cx="1482" cy="1680" r="120"/><circle cx="2470" cy="1680" r="120"/>
+    </g>
+  </symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V17M8 7.5v.01M12 17v-6.5M12 13.5a2.5 2.5 0 0 1 5 0V17"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></symbol>
+  <symbol id="i-flow" viewBox="0 0 24 24"><rect x="3" y="4" width="6" height="5" rx="1"/><rect x="15" y="15" width="6" height="5" rx="1"/><path d="M6 9v4a2 2 0 0 0 2 2h7"/><path d="m13 13 2 2-2 2"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5z"/><path d="m3 12.5 9 5 9-5"/><path d="m3 16.5 9 5 9-5"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></symbol>
+</svg>
+
+<!-- Seletor de idioma: o rádio marcado define o idioma exibido e impresso -->
+<input type="radio" name="lang" id="lang-pt" class="sr-only" checked>
+<input type="radio" name="lang" id="lang-en" class="sr-only">
+
+<div class="site">
+
+  <!-- ===================== CABEÇALHO ===================== -->
+  <header class="hero" id="topo">
+    <div class="wrap">
+      <nav class="nav" aria-label="Principal">
+        <a class="brand" href="#topo">
+          <span class="brand-mark" aria-hidden="true">AC</span>
+          <span class="brand-name">Adriana Cardoso</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#sobre"><span lang="pt-BR">Sobre</span><span lang="en">About</span></a></li>
+          <li><a href="#trajetoria"><span lang="pt-BR">Trajetória</span><span lang="en">Path</span></a></li>
+          <li><a href="#experiencia"><span lang="pt-BR">Experiência</span><span lang="en">Experience</span></a></li>
+          <li><a href="#formacao"><span lang="pt-BR">Formação</span><span lang="en">Education</span></a></li>
+          <li><a href="#contato"><span lang="pt-BR">Contato</span><span lang="en">Contact</span></a></li>
+        </ul>
+        <div class="lang-switch" role="group" aria-label="Idioma / Language">
+          <label for="lang-pt" title="Português (Brasil)">
+            <svg class="flag" aria-hidden="true"><use href="#flag-br"/></svg>
+            <span>PT</span>
+          </label>
+          <label for="lang-en" title="English">
+            <svg class="flag" aria-hidden="true"><use href="#flag-us"/></svg>
+            <span>EN</span>
+          </label>
+        </div>
+      </nav>
+
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow-outline"><span lang="pt-BR">Olá, eu sou</span><span lang="en">Hello, I am</span></p>
+          <h1>Adriana Cardoso</h1>
+          <p class="hero-title">
+            <span lang="pt-BR">Produto, Estratégia e IA | Transformação Digital</span>
+            <span lang="en">Product, Strategy &amp; AI | Digital Transformation</span>
+          </p>
+          <address class="hero-contact">
+            <a href="mailto:adriana.acardoso@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>adriana.acardoso@gmail.com</a>
+            <a href="https://www.linkedin.com/in/adrianacardosovenceslau"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>linkedin.com/in/adrianacardosovenceslau</a>
+            <span><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span lang="pt-BR">São Paulo, SP</span><span lang="en">São Paulo, Brazil</span></span>
+          </address>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contato">
+              <span lang="pt-BR">Fale comigo</span><span lang="en">Get in touch</span>
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/adrianacardosovenceslau">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo">
+            <span class="photo-initials" aria-hidden="true">AC</span>
+            <!-- FOTO (opcional): para remover, comente a linha abaixo; as iniciais "AC" voltam a aparecer -->
+            <img src="foto.jpg" alt="Adriana Cardoso" width="380" height="380">
+          </div>
+          <span class="deco deco-ring-gold" aria-hidden="true"></span>
+          <span class="deco deco-ring" aria-hidden="true"></span>
+          <span class="deco deco-ring-sm" aria-hidden="true"></span>
+          <span class="deco deco-dot d1" aria-hidden="true"></span>
+          <span class="deco deco-dot d2" aria-hidden="true"></span>
+          <svg class="deco deco-tri" viewBox="0 0 26 26" aria-hidden="true"><path d="M4 22 13 4l9 18z" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-arcs" viewBox="0 0 400 200" aria-hidden="true">
+      <g fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="1.5">
+        <path d="M20 200a180 180 0 0 1 360 0"/><path d="M42 200a158 158 0 0 1 316 0"/>
+        <path d="M64 200a136 136 0 0 1 272 0"/><path d="M86 200a114 114 0 0 1 228 0"/>
+        <path d="M108 200a92 92 0 0 1 184 0"/>
+      </g>
+    </svg>
+    <svg class="hero-wave" viewBox="0 0 1440 240" preserveAspectRatio="none" aria-hidden="true">
+      <path fill="#efecf8" d="M0 240V160C380 250 920 230 1440 30V240Z"/>
+      <path fill="#ffffff" d="M0 240V200C420 262 980 236 1440 100V240Z"/>
+    </svg>
+  </header>
+
+  <main>
+    <!-- ===================== SOBRE ===================== -->
+    <section class="section" id="sobre" aria-labelledby="t-sobre">
+      <div class="wrap about-grid">
+        <div>
+          <h2 class="section-title" id="t-sobre"><span lang="pt-BR">Sobre mim</span><span lang="en">About me</span></h2>
+          <p class="section-lead">
+            <span lang="pt-BR">Produto, estratégia e IA aplicados ao negócio.</span>
+            <span lang="en">Product, strategy and AI applied to business.</span>
+          </p>
+          <div class="about-actions">
+            <a class="btn btn-primary" href="mailto:adriana.acardoso@gmail.com">
+              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+              <span lang="pt-BR">Enviar e-mail</span><span lang="en">Send email</span>
+            </a>
+            <a class="round-link" href="https://www.linkedin.com/in/adrianacardosovenceslau" aria-label="LinkedIn">
+              <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
+            </a>
+          </div>
+        </div>
+        <p class="summary">
+          <span lang="pt-BR">Transformo estratégia em execução. Comecei construindo sistemas, redesenhei processos em consultoria, gerei produtos digitais e hoje direciono o portfólio de transformação digital e IA da CVC Corp junto ao C-Level.</span>
+          <span lang="en">I turn strategy into execution. I started out building systems, redesigned processes as a consultant, built digital products, and now steer CVC Corp’s digital transformation and AI portfolio alongside the C-suite.</span>
+        </p>
+
+        <dl class="facts">
+          <div>
+            <dt><span lang="pt-BR">Cargo atual</span><span lang="en">Current role</span></dt>
+            <dd><span lang="pt-BR">Especialista em Projetos Estratégicos</span><span lang="en">Strategic Projects Specialist</span> · CVC Corp</dd>
+          </div>
+          <div>
+            <dt><span lang="pt-BR">Localização</span><span lang="en">Location</span></dt>
+            <dd><span lang="pt-BR">São Paulo, SP</span><span lang="en">São Paulo, Brazil</span></dd>
+          </div>
+          <div>
+            <dt>E-mail</dt>
+            <dd><a href="mailto:adriana.acardoso@gmail.com">adriana.acardoso@gmail.com</a></dd>
+          </div>
+          <div>
+            <dt>LinkedIn</dt>
+            <dd><a href="https://www.linkedin.com/in/adrianacardosovenceslau">linkedin.com/in/adrianacardosovenceslau</a></dd>
+          </div>
+        </dl>
+
+        <ul class="metrics">
+          <li class="metric">
+            <strong>81%</strong>
+            <span lang="pt-BR">redução do roadmap (518 → 97 iniciativas)</span>
+            <span lang="en">roadmap reduction (518 → 97 initiatives)</span>
+          </li>
+          <li class="metric">
+            <strong>46</strong>
+            <span lang="pt-BR">entregas previstas para 2026</span>
+            <span lang="en">deliveries planned for 2026</span>
+          </li>
+          <li class="metric">
+            <strong>+30%</strong>
+            <span lang="pt-BR">eficiência no onboarding de parceiros B2B</span>
+            <span lang="en">efficiency in B2B partner onboarding</span>
+          </li>
+          <li class="metric">
+            <strong>300+</strong>
+            <span lang="pt-BR">pessoas na operação de BPO implantada</span>
+            <span lang="en">people in the BPO operation rolled out</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== TRAJETÓRIA ===================== -->
+    <section class="section" id="trajetoria" aria-labelledby="t-traj">
+      <div class="wrap">
+        <header class="section-head">
+          <span class="kicker-dot" aria-hidden="true"></span>
+          <span class="kicker"><span lang="pt-BR">Trajetória</span><span lang="en">Career path</span></span>
+          <h2 class="section-title" id="t-traj"><span lang="pt-BR">Da construção ao portfólio</span><span lang="en">From code to portfolio</span></h2>
+        </header>
+        <ol class="path">
+          <li>
+            <span class="icon-box" aria-hidden="true"><svg class="icon"><use href="#i-code"/></svg></span>
+            <span class="path-step">01</span>
+            <h3><span lang="pt-BR">Construí sistemas</span><span lang="en">Built systems</span></h3>
+            <p>
+              <span lang="pt-BR">Programadora na NTT DATA: ETL, migração de dados e transição de sistemas bancários.</span>
+              <span lang="en">Developer at NTT DATA: ETL, data migration and banking systems transition.</span>
+            </p>
+          </li>
+          <li>
+            <span class="icon-box" aria-hidden="true"><svg class="icon"><use href="#i-flow"/></svg></span>
+            <span class="path-step">02</span>
+            <h3><span lang="pt-BR">Redesenhei processos</span><span lang="en">Redesigned processes</span></h3>
+            <p>
+              <span lang="pt-BR">Consultoria na NTT DATA e na EloGroup: BPO, PMO, escritório de processos e As Is / To Be.</span>
+              <span lang="en">Consulting at NTT DATA and EloGroup: BPO, PMO, process office and As-Is / To-Be.</span>
+            </p>
+          </li>
+          <li>
+            <span class="icon-box" aria-hidden="true"><svg class="icon"><use href="#i-layers"/></svg></span>
+            <span class="path-step">03</span>
+            <h3><span lang="pt-BR">Gerei produtos</span><span lang="en">Built products</span></h3>
+            <p>
+              <span lang="pt-BR">Mercado Pago e Farmarcas: PIX, discovery, roadmap, Design System e produtos B2B.</span>
+              <span lang="en">Mercado Pago and Farmarcas: PIX, discovery, roadmap, Design System and B2B products.</span>
+            </p>
+          </li>
+          <li class="is-current">
+            <span class="icon-box" aria-hidden="true"><svg class="icon"><use href="#i-target"/></svg></span>
+            <span class="path-step">04</span>
+            <h3><span lang="pt-BR">Direciono portfólio</span><span lang="en">Steer the portfolio</span></h3>
+            <p>
+              <span lang="pt-BR">CVC Corp: governança de portfólio, IA e transformação digital com o C-Level.</span>
+              <span lang="en">CVC Corp: portfolio governance, AI and digital transformation with the C-suite.</span>
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIÊNCIA ===================== -->
+    <section class="section section-soft" id="experiencia" aria-labelledby="t-exp">
+      <div class="wrap">
+        <header class="section-head">
+          <span class="kicker-dot" aria-hidden="true"></span>
+          <span class="kicker"><span lang="pt-BR">Experiência</span><span lang="en">Experience</span></span>
+          <h2 class="section-title" id="t-exp"><span lang="pt-BR">Experiência profissional</span><span lang="en">Professional experience</span></h2>
+        </header>
+
+        <ol class="timeline">
+          <!-- CVC Corp -->
+          <li>
+            <article class="job">
+              <header class="job-head">
+                <h3 class="job-company">CVC Corp</h3>
+                <p class="job-role"><span lang="pt-BR">Especialista em Projetos Estratégicos</span><span lang="en">Strategic Projects Specialist</span></p>
+                <p class="job-date">
+                  <time datetime="2025-11"><span lang="pt-BR">nov 2025</span><span lang="en">Nov 2025</span></time> –
+                  <span lang="pt-BR">atual</span><span lang="en">present</span>
+                </p>
+              </header>
+              <ul class="job-points" lang="pt-BR">
+                <li>Conduzo a governança e a priorização do portfólio por impacto, retorno e capacidade de execução, com redução de 81% do roadmap (518 → 97 iniciativas) e 46 entregas previstas para 2026.</li>
+                <li>Desdobro os direcionadores estratégicos da companhia em iniciativas de transformação digital e IA.</li>
+                <li>Gerencio CAPEX e OPEX, direcionando recursos para as iniciativas de maior retorno <mark class="metric-todo">[MÉTRICA?]</mark>.</li>
+                <li>Conduzo comitês executivos e dashboards de acompanhamento para o C-Level.</li>
+                <li>Aplico Product Discovery e métodos ágeis na estruturação de novos produtos.</li>
+              </ul>
+              <ul class="job-points" lang="en">
+                <li>Lead portfolio governance and prioritization by impact, return and execution capacity, cutting the roadmap by 81% (518 → 97 initiatives) with 46 deliveries planned for 2026.</li>
+                <li>Translate the company’s strategic drivers into digital transformation and AI initiatives.</li>
+                <li>Manage CAPEX and OPEX, directing resources to the highest-return initiatives <mark class="metric-todo">[METRIC?]</mark>.</li>
+                <li>Run executive committees and C-suite tracking dashboards.</li>
+                <li>Apply Product Discovery and Agile methods to shape new products.</li>
+              </ul>
+            </article>
+          </li>
+
+          <!-- Farmarcas / Febrafar -->
+          <li>
+            <article class="job">
+              <header class="job-head">
+                <h3 class="job-company">Farmarcas / Febrafar</h3>
+                <p class="job-role"><span lang="pt-BR">Gerente de Produtos</span><span lang="en">Product Manager</span></p>
+                <p class="job-date">
+                  <time datetime="2022-08"><span lang="pt-BR">ago 2022</span><span lang="en">Aug 2022</span></time> –
+                  <time datetime="2025-07"><span lang="pt-BR">jul 2025</span><span lang="en">Jul 2025</span></time>
+                </p>
+              </header>
+              <ul class="job-points" lang="pt-BR">
+                <li>Redesenhei a jornada de contratos e onboarding de parceiros B2B, com +30% de eficiência no processo e redução do tempo de ativação <mark class="metric-todo">[MÉTRICA?]</mark>.</li>
+                <li>Conduzi o produto de Gestão de Verbas Corporativas: automação do lançamento de notas fiscais, motor de gestão orçamentária integrado ao planejamento financeiro e dashboards em tempo real para gestores e alta liderança <mark class="metric-todo">[MÉTRICA?]</mark>.</li>
+                <li>Conduzi o ciclo completo de produto, do discovery à entrega contínua, com decisões orientadas por dados, validação de hipóteses, roadmap e portfólio.</li>
+                <li>Geri o ERP interno nos módulos Financeiro, Fiscal, Gente e Gestão, Jurídico, Patrimônio e Estoque.</li>
+                <li>Estruturei os processos da área de Produto e implantei OKRs e KPIs.</li>
+                <li>Liderei o time de UX e cocriei o Design System.</li>
+                <li>Participei do comitê executivo de estratégia de portfólio.</li>
+              </ul>
+              <ul class="job-points" lang="en">
+                <li>Redesigned the B2B partner contracting and onboarding journey, raising process efficiency by 30% and reducing activation time <mark class="metric-todo">[METRIC?]</mark>.</li>
+                <li>Led the Corporate Budget Management product: automated invoice entry, a budget management engine integrated with financial planning, and real-time dashboards for managers and senior leadership <mark class="metric-todo">[METRIC?]</mark>.</li>
+                <li>Ran the full product lifecycle, from discovery to continuous delivery, with data-driven decisions, hypothesis validation, roadmap and portfolio management.</li>
+                <li>Managed the internal ERP across Finance, Tax, People &amp; Management, Legal, Fixed Assets and Inventory modules.</li>
+                <li>Structured the Product team’s processes and rolled out OKRs and KPIs.</li>
+                <li>Led the UX team and co-created the Design System.</li>
+                <li>Sat on the executive portfolio strategy committee.</li>
+              </ul>
+            </article>
+          </li>
+
+          <!-- Mercado Livre / Mercado Pago -->
+          <li>
+            <article class="job">
+              <header class="job-head">
+                <h3 class="job-company">Mercado Livre / Mercado Pago</h3>
+                <p class="job-role">Team Leader / Product Owner</p>
+                <p class="job-date">
+                  <time datetime="2019-09"><span lang="pt-BR">set 2019</span><span lang="en">Sep 2019</span></time> –
+                  <time datetime="2020-12"><span lang="pt-BR">dez 2020</span><span lang="en">Dec 2020</span></time>
+                </p>
+              </header>
+              <ul class="job-points" lang="pt-BR">
+                <li>Liderei a implantação do PIX, conduzindo o roadmap de pagamentos via QR Code <mark class="metric-todo">[MÉTRICA?]</mark>.</li>
+                <li>Conduzi Product Discovery conectando negócio, tecnologia, UX/UI e CX.</li>
+                <li>Defini roadmap, priorização e histórias de usuário.</li>
+                <li>Estruturei iniciativas de Customer Experience para Top Sellers e geri o NPS e os indicadores de experiência <mark class="metric-todo">[MÉTRICA?]</mark>.</li>
+              </ul>
+              <ul class="job-points" lang="en">
+                <li>Led the PIX rollout, driving the QR Code payments roadmap <mark class="metric-todo">[METRIC?]</mark>.</li>
+                <li>Ran Product Discovery connecting business, technology, UX/UI and CX.</li>
+                <li>Owned roadmap, prioritization and user stories.</li>
+                <li>Built Customer Experience initiatives for Top Sellers and managed NPS and experience metrics <mark class="metric-todo">[METRIC?]</mark>.</li>
+              </ul>
+            </article>
+          </li>
+
+          <!-- EloGroup -->
+          <li>
+            <article class="job">
+              <header class="job-head">
+                <h3 class="job-company">EloGroup</h3>
+                <p class="job-role"><span lang="pt-BR">Consultora Sênior</span><span lang="en">Senior Consultant</span></p>
+                <p class="job-date">
+                  <time datetime="2012-03"><span lang="pt-BR">mar 2012</span><span lang="en">Mar 2012</span></time> –
+                  <time datetime="2014-12"><span lang="pt-BR">dez 2014</span><span lang="en">Dec 2014</span></time>
+                </p>
+              </header>
+              <ul class="job-points" lang="pt-BR">
+                <li>Liderei projetos de desenvolvimento de sistemas e transformação de processos, do escopo à análise e ao desenho de soluções.</li>
+                <li>Conduzi discovery com stakeholders e mapeamentos As Is / To Be, identificando ganhos e reduzindo desperdícios <mark class="metric-todo">[MÉTRICA?]</mark>.</li>
+                <li>Implantei Escritório de Processos e Projetos, com análise de portfólio, planejamento estratégico e cadeia de valor.</li>
+              </ul>
+              <ul class="job-points" lang="en">
+                <li>Led systems development and process transformation projects, from scoping to analysis and solution design.</li>
+                <li>Ran stakeholder discovery and As-Is / To-Be mapping, identifying gains and cutting waste <mark class="metric-todo">[METRIC?]</mark>.</li>
+                <li>Set up a Process and Project Management Office, covering portfolio analysis, strategic planning and value chain.</li>
+              </ul>
+            </article>
+          </li>
+
+          <!-- NTT DATA -->
+          <li>
+            <article class="job">
+              <header class="job-head">
+                <h3 class="job-company">NTT DATA Europe &amp; Latam</h3>
+                <p class="job-date">
+                  <time datetime="2008-02"><span lang="pt-BR">fev 2008</span><span lang="en">Feb 2008</span></time> –
+                  <time datetime="2012-03"><span lang="pt-BR">mar 2012</span><span lang="en">Mar 2012</span></time>
+                </p>
+              </header>
+              <div>
+                <div class="job-sub">
+                  <h4><span lang="pt-BR">Consultora de TI e Processos</span><span lang="en">IT &amp; Process Consultant</span></h4>
+                  <ul class="job-points" lang="pt-BR">
+                    <li>Implantei operação de BPO com mais de 300 pessoas em Telecom, estruturando novos processos, treinamento, gestão de demandas e KPIs, com liderança de equipe.</li>
+                    <li>Atuei no PMO do setor financeiro, definindo padrões de gerenciamento, controle e execução de projetos.</li>
+                  </ul>
+                  <ul class="job-points" lang="en">
+                    <li>Rolled out a 300+ person BPO operation in Telecom, designing new processes, training, demand management and KPIs, and leading the team.</li>
+                    <li>Worked in a financial-sector PMO, setting standards for project management, control and execution.</li>
+                  </ul>
+                </div>
+                <div class="job-sub">
+                  <h4><span lang="pt-BR">Programadora</span><span lang="en">Developer</span></h4>
+                  <ul class="job-points" lang="pt-BR">
+                    <li>Desenvolvi processos de ETL e migração de dados com Informatica PowerCenter, extraindo dados de sistemas legados e aplicando novas regras de negócio.</li>
+                    <li>Atuei na transição de sistemas do Banco Real para o Santander.</li>
+                  </ul>
+                  <ul class="job-points" lang="en">
+                    <li>Built ETL and data migration processes with Informatica PowerCenter, extracting legacy data and applying new business rules.</li>
+                    <li>Worked on the systems transition from Banco Real to Santander.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== FORMAÇÃO ===================== -->
+    <section class="section" id="formacao" aria-labelledby="t-edu">
+      <div class="wrap">
+        <header class="section-head">
+          <span class="kicker-dot" aria-hidden="true"></span>
+          <span class="kicker"><span lang="pt-BR">Formação</span><span lang="en">Education</span></span>
+          <h2 class="section-title" id="t-edu"><span lang="pt-BR">Formação e certificações</span><span lang="en">Education &amp; certifications</span></h2>
+        </header>
+
+        <div class="edu-grid">
+          <div>
+            <h3 class="block-title"><span lang="pt-BR">Formação acadêmica</span><span lang="en">Education</span></h3>
+            <ul class="edu">
+              <li>
+                <span class="edu-school">MIT Professional Education</span>
+                <time datetime="2024">2024</time>
+                <span class="edu-course"><span lang="pt-BR">IA: Desenvolvendo produtos e serviços com IA</span><span lang="en">AI: Developing products and services with AI</span></span>
+              </li>
+              <li>
+                <span class="edu-school">Nortus</span>
+                <span class="edu-year">2023–2024</span>
+                <span class="edu-course"><span lang="pt-BR">Gestão Contemporânea (in company)</span><span lang="en">Contemporary Management (in-company)</span></span>
+              </li>
+              <li>
+                <span class="edu-school">Impacta Tecnologia</span>
+                <span class="edu-year">2022–2023</span>
+                <span class="edu-course"><span lang="pt-BR">MBA em Agile Project Management &amp; Digital Product</span><span lang="en">MBA in Agile Project Management &amp; Digital Product</span></span>
+              </li>
+              <li>
+                <span class="edu-school">FGV</span>
+                <time datetime="2018">2018</time>
+                <span class="edu-course"><span lang="pt-BR">Planejamento de Mídias Digitais, Produtos Digitais</span><span lang="en">Digital Media Planning, Digital Products</span></span>
+              </li>
+              <li>
+                <span class="edu-school">Fatec Baixada Santista Rubens Lara</span>
+                <span class="edu-course"><span lang="pt-BR">Graduação em Informática com ênfase em Gestão de Negócios</span><span lang="en">Degree in Information Technology, Business Management emphasis</span></span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="block-title"><span lang="pt-BR">Certificações</span><span lang="en">Certifications</span></h3>
+            <ul class="chips">
+              <li>Product Discovery</li>
+              <li>Product Management</li>
+              <li>Product Owner</li>
+              <li>Enterprise Design Thinking Practitioner</li>
+              <li>Kanban System</li>
+              <li>CPA-10</li>
+            </ul>
+
+            <h3 class="block-title"><span lang="pt-BR">Competências</span><span lang="en">Skills</span></h3>
+            <ul class="chips" lang="pt-BR">
+              <li>Visão estratégica</li>
+              <li>Gestão de portfólio e roadmap</li>
+              <li>Ciclo ágil de produto</li>
+              <li>Gestão de stakeholders</li>
+              <li>UX</li>
+              <li>Liderança influenciadora</li>
+              <li>IA aplicada a produto</li>
+            </ul>
+            <ul class="chips" lang="en">
+              <li>Strategic vision</li>
+              <li>Portfolio &amp; roadmap management</li>
+              <li>Agile product lifecycle</li>
+              <li>Stakeholder management</li>
+              <li>UX</li>
+              <li>Influential leadership</li>
+              <li>AI applied to products</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="section contact-band" id="contato" aria-labelledby="t-contato">
+      <div class="wrap">
+        <span class="kicker-dot" aria-hidden="true"></span>
+        <span class="kicker"><span lang="pt-BR">Contato</span><span lang="en">Contact</span></span>
+        <h2 class="section-title" id="t-contato"><span lang="pt-BR">Vamos conversar</span><span lang="en">Let’s talk</span></h2>
+        <address class="contact-list">
+          <a href="mailto:adriana.acardoso@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>adriana.acardoso@gmail.com</a>
+          <a href="https://www.linkedin.com/in/adrianacardosovenceslau"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</a>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© Adriana Cardoso · São Paulo</div>
+  </footer>
+</div>
+</body>
+</html>
